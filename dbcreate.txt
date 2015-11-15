@@ -1,0 +1,5 @@
+Products.insert({
+name: "Valami",
+ar: 1000,
+href: "products/termek1"
+});
