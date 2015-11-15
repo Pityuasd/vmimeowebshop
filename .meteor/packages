@@ -20,5 +20,6 @@ autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 mrt:bootstrap-3
 iron:router
-ian:accounts-ui-bootstrap-3less
+ian:accounts-ui-bootstrap-3
 accounts-password
+less
