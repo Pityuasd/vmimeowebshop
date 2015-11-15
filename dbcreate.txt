@@ -1,60 +1,60 @@
 Products.insert({
 name: "macskakaja",
 ar: 1000,
-href: "/products/termek1"
+href: "/products/termek1.jpg"
 });
 
 Products.insert({
 name: "mufazs",
 ar: 3500,
-href: "/products/termek2"
+href: "/products/termek2.jpg"
 });
 
 Products.insert({
 name: "fallout",
 ar: 16000,
-href: "/products/termek3"
+href: "/products/termek3.jpg"
 });
 
 Products.insert({
 name: "trabi",
 ar: 500,
-href: "/products/termek4"
+href: "/products/termek4.jpg"
 });
 
 Products.insert({
 name: "kenyer",
 ar: 280,
-href: "/products/termek5"
+href: "/products/termek5.jpg"
 });
 
 Products.insert({
 name: "utlevel",
 ar: 3999,
-href: "/products/termek6"
+href: "/products/termek6.jpg"
 });
 
 Products.insert({
 name: "kacsa",
 ar: 1899,
-href: "/products/termek7"
+href: "/products/termek7.jpg"
 });
 
 Products.insert({
 name: "royal",
 ar: 150,
-href: "/products/termek8"
+href: "/products/termek8.jpg"
 });
 
 Products.insert({
 name: "kurva",
 ar: 5000,
-href: "/products/termek9"
+href: "/products/termek9.jpg"
 });
 
 Products.insert({
 name: "telefon",
 ar: 3699,
-href: "/products/termek10"
+href: "/products/termek10.jpg"
 });
 
