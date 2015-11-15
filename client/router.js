@@ -31,5 +31,18 @@ Router.route('/', {
     return [
       Meteor.subscribe('products'),
     ];
-  }
+  } 
+});
+Router.route('/product/:_id', {
+    template: 'productPage',
+	  subscriptions: function() {
+    return [
+      Meteor.subscribe('products'),
+    ];
+  }, 
+    data: function(){
+        var currentProduct = this.params._id;
+		console.log(Products.findOne({_id: currentProduct}));
+		return Products.findOne({_id: currentProduct});
+    }
 });
