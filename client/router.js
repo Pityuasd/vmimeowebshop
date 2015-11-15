@@ -25,8 +25,8 @@ Router.onBeforeAction(function () {
  * Subscribes to the required publications.
  */
 Router.route('/', {
-  name:     'chatRoom',
-  template: 'chatRoom',
+  name:     'index',
+  template: 'index',
   subscriptions: function() {
     return [
       Meteor.subscribe('messages'),
