@@ -1,5 +1,60 @@
 Products.insert({
-name: "Valami",
+name: "macskakaja",
 ar: 1000,
-href: "products/termek1"
+href: "/products/termek1"
 });
+
+Products.insert({
+name: "mufazs",
+ar: 3500,
+href: "/products/termek2"
+});
+
+Products.insert({
+name: "fallout",
+ar: 16000,
+href: "/products/termek3"
+});
+
+Products.insert({
+name: "trabi",
+ar: 500,
+href: "/products/termek4"
+});
+
+Products.insert({
+name: "kenyer",
+ar: 280,
+href: "/products/termek5"
+});
+
+Products.insert({
+name: "utlevel",
+ar: 3999,
+href: "/products/termek6"
+});
+
+Products.insert({
+name: "kacsa",
+ar: 1899,
+href: "/products/termek7"
+});
+
+Products.insert({
+name: "royal",
+ar: 150,
+href: "/products/termek8"
+});
+
+Products.insert({
+name: "kurva",
+ar: 5000,
+href: "/products/termek9"
+});
+
+Products.insert({
+name: "telefon",
+ar: 3699,
+href: "/products/termek10"
+});
+
