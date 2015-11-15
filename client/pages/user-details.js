@@ -1,8 +1,5 @@
-Template.userDetails.events({
-  /**
-   * Updates the users profile on field blur.
-   * @param event Event object.
-   */
+/*Template.userDetails.events({
+
   'blur input, blur textarea': function(event) {
     var data = Meteor.user().profile;
     data[event.target.name] = event.target.value;
@@ -10,4 +7,4 @@ Template.userDetails.events({
       profile: data
     }});
   }
-});
+});*/
