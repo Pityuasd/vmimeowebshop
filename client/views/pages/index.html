@@ -30,42 +30,19 @@
 			</a>
 		</div>
 		<div class="container">
+		{{#each getProducts}}
+		
 			<div class="product" id="product">
-				<img src="products/termek8.jpg" class = "product_img">
+				<img src={{href}} class = "product_img">
 				<div class="product_name" > 
-					asd
+					{{name}}
 				</div>
 				<div class="product_price">
-					444
+					{{ar}}
 				</div>
 			</div>
-			<div class="product" id="product">
-				<img src="products/termek8.jpg" class = "product_img">
-				<div class="product_name" > 
-					asd
-				</div>
-				<div class="product_price">
-					444
-				</div>
-			</div>
-			<div class="product" id="product">
-				<img src="products/termek8.jpg" class = "product_img">
-				<div class="product_name" > 
-					asd
-				</div>
-				<div class="product_price">
-					444
-				</div>
-			</div>
-			<div class="product" id="product">
-				<img src="products/termek8.jpg" class = "product_img">
-				<div class="product_name" > 
-					asd
-				</div>
-				<div class="product_price">
-					444
-				</div>
-			</div>
+			{{/each}}
+	
 		</div>
 	</div>
 </template>
