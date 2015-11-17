@@ -42,7 +42,6 @@ Router.route('/product/:_id', {
   }, 
     data: function(){
         var currentProduct = this.params._id;
-		console.log(Products.findOne({_id: currentProduct}));
 		return Products.findOne({_id: currentProduct});
     }
 });
