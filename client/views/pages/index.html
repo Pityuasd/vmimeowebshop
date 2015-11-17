@@ -32,7 +32,7 @@
 		<div class="container">
 		{{#each getProducts}}
 		
-			<div class="product" id="product">
+		<a href="/product/{{_id}}">	<div class="product" id="product">
 				<img src={{href}} class = "product_img">
 				<div class="product_name" > 
 					{{name}}
@@ -41,6 +41,7 @@
 					{{ar}}
 				</div>
 			</div>
+			</a>
 			{{/each}}
 	
 		</div>
